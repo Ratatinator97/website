@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>Optimize your Linux experience</title>
+  <meta name="description" content="If you are interested in Gnu+Linux you’re in the right place. I started using Linux as my daily drive 2 years ago. At the time I barely knew Linux. Here you’ll find my main tools that enable me to have a nice setup and be productive as hell.">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2020/05/01/my-linux-setup/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="Alex&#39;s Website" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+  <meta property="og:title" content="Optimize your Linux experience">
+  <meta property="og:site_name" content="Alex&#39;s Website">
+  <meta property="og:url" content="http://localhost:4000/2020/05/01/my-linux-setup/">
+  <meta property="og:description" content="If you are interested in Gnu+Linux you’re in the right place. I started using Linux as my daily drive 2 years ago. At the time I barely knew Linux. Here you’ll find my main tools that enable me to have a nice setup and be productive as hell.">
+  
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="Optimize your Linux experience">
+  <meta name="twitter:description" content="If you are interested in Gnu+Linux you’re in the right place. I started using Linux as my daily drive 2 years ago. At the time I barely knew Linux. Here you’ll find my main tools that enable me to ...">
+  
+  
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700&amp;display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Alex&#39;s Website</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/about/">About</a>
+      
+        
+        <a class="page-link" href="/archives/">Archives</a>
+      
+        
+        <a class="page-link" href="https://github.com/yous/whiteglass">GitHub</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+      <h1 class="post-title" itemprop="name headline">Optimize your Linux experience</h1>
+    
+    <p class="post-meta"><time datetime="2020-05-01T19:41:35+02:00" itemprop="datePublished">May 1, 2020</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>If you are interested in Gnu+Linux you’re in the right place. I started using Linux as my daily drive 2 years ago. At the time I barely knew Linux. Here you’ll find my main tools that enable me to have a nice setup and be productive as hell.</p>
+
+<h2 id="the-shell">The shell</h2>
+
+<p>Is one of the <strong>main tools</strong> if not the main tool of a Linux computer. You will spend a lot of time there and you have to be <strong>comfortable</strong> in there.</p>
+
+<p>Most of the distros are shipped with <strong>Bash</strong>. It’s a great and powerful tool but for me it wasn’t very enjoyable. Many times my <code class="language-plaintext highlighter-rouge">tab</code> completion did not work because of a typo. Other times it wasn’t handy when selecting items displayed by the <code class="language-plaintext highlighter-rouge">tab</code> command. Bash’s tab auto-completion isn’t good enough.</p>
+
+<p>But then I heard of Zsh, a <strong>child</strong> of Bash.</p>
+
+<h3 id="zsh">Zsh</h3>
+
+<p>If you had already learned Bash and started to be confident using it then don’t worry. Zsh and Bash are very <strong>similar</strong>. Most commands are identical and the logic is the same. Although they seem identical, Zsh have some <strong>improvements</strong> it’s father has not !</p>
+
+<h4 id="tab-auto-completion">Tab Auto-completion</h4>
+
+<p>is <strong>great</strong>.</p>
+
+<p><img src="https://drive.google.com/uc?export=view&amp;id=1NmzyZiOZzeVfV2D72WHs61li2tkaS888" alt="A picture about the amazing features of Zsh" /></p>
+
+<p>You can <strong>navigate</strong> through the <code class="language-plaintext highlighter-rouge">tab</code> results with your <code class="language-plaintext highlighter-rouge">arrow keys</code> or just pressing <code class="language-plaintext highlighter-rouge">tab</code> to hop to the next element.</p>
+
+<p>A misspelled <code class="language-plaintext highlighter-rouge">cd documents</code> will transform into <code class="language-plaintext highlighter-rouge">cd Documents</code> <strong>magically</strong> !</p>
+
+<h5 id="style">Style</h5>
+
+<p>Zsh supports many <strong>theme</strong>s. I don’t say Bash hasn’t but it’s good to know.</p>
+
+<h5 id="oh-my-zsh-"><a href="https://ohmyz.sh/">Oh my Zsh</a> !</h5>
+
+<p>Is a <strong>great bundle of plugins</strong> and themes ! It is an <em>incontournable</em> of Zsh.</p>
+
+<p>I won’t go through the plugins as they are already documented in their website.</p>
+
+<h6 id="be-carefull-you-have-to-use-the-zshrc-instead-of-the-bashrc-">Be Carefull: you have to use the <code class="language-plaintext highlighter-rouge">.zshrc</code> instead of the <code class="language-plaintext highlighter-rouge">.bashrc</code> .</h6>
+
+<h2 id="battery-optimization">Battery optimization</h2>
+
+<p>A lot of students and developers out there use <strong>laptops</strong> as main computers when it comes to <strong>work</strong>. Most of our devices doesn’t last a day. I see a lot of colleagues that are plugged in more than <u>two times a day</u> and they make me suffer because Linux has a <strong>lot</strong> of battery optimization tools.</p>
+
+<h4 id="tlp">TLP</h4>
+
+<p>I don’t know what TLP stands for but I know it gives me more than <strong>2h</strong> of <strong>battery</strong> ! The install and setup is straightforward. Satisfaction guaranteed !</p>
+
+<p>Here is the link to the <a href="[TLP - Optimize Linux Laptop Battery Life &mdash; TLP 1.3.1 documentation](https://linrunner.de/tlp/index.html)">documentation</a> !</p>
+
+<h4 id="powertop">Powertop</h4>
+
+<p>It is another one battery optimizer. It gives me the same results that with TLP.</p>
+
+<h2 id="zram-zswap-or-zcache-">Zram, Zswap or Zcache ?</h2>
+
+<p>Linux offers many solutions when it comes to optimize. You have seen two battery optimization tools. But what about <strong>Ram</strong> optimization ?</p>
+
+<p>When you define partitions for your Linux OS, you are often offered a Swap partition. Swap is a “fake” Ram, it acts like it but as it is stored in your hard drive it is <strong>much slower</strong> than your Ram (physical). Yet not, don’t delete that partitions because Swap is very useful.</p>
+
+<p>So here we face multiple positions :</p>
+
+<ul>
+  <li>
+    <p>If you <strong>don’t</strong> have a Swap partition then go for Zram</p>
+  </li>
+  <li>
+    <p>If you have Swap go for Zswap</p>
+  </li>
+  <li>
+    <p>If you like risks and want bleeding edge tools go for Zcache, is it not ready yet but it does a better job than Zswap.</p>
+
+    <p>If you want to know more about it, I recommend you to read <a href="[kernel - zram vs zswap vs zcache Ultimate guide: when to use which one - Ask Ubuntu](https://askubuntu.com/questions/471912/zram-vs-zswap-vs-zcache-ultimate-guide-when-to-use-which-one)">this post</a> on StackExchange.</p>
+  </li>
+</ul>
+
+<h2 id="gnome">Gnome</h2>
+
+<p>For the Ubuntu or the elementary OS you may know your DE (desktop env.) is   GNOME. I personally use Gnome under Wayland and I find it very good. It is the main alternative of Kde at this time and same you’re not fan of WM’s (Window Managers).</p>
+
+<h3 id="gnome-vanilla-is-nice-but-can-be-improved">Gnome vanilla is nice but can be improved</h3>
+
+<p>If you don’t use Ubuntu then you may want to use <a href="https://snapcraft.io/">Snapcraft</a> as well. It is a widely popular “App” Store. It is developed by Canonical so only Ubuntu based distributions support it in native. <strong>But other distros can use it too !</strong></p>
+
+<p>If you build your Linux from scratch you may want to have <strong>Flatpack</strong> too. It is installed on Gnome by default.</p>
+
+<p>One thing that is very important is to be careful of the <strong>permissions</strong> of the snap/flatpack package. They are usually <strong>very restricted</strong> (i.e. can only use the <code class="language-plaintext highlighter-rouge">~/</code> by default). If you have a package that needs access to <code class="language-plaintext highlighter-rouge">/bin</code> or <code class="language-plaintext highlighter-rouge">/usr</code> you have to <strong>give</strong> then the access to it. You can learn more about it <a href="[Sandbox Permissions &mdash; Flatpak documentation](https://docs.flatpak.org/en/latest/sandbox-permissions.html)">there</a>.</p>
+
+<h3 id="unixporn"><a href="[r/unixporn - the home for *NIX customization!](https://www.reddit.com/r/unixporn/)"> UnixPorn</a></h3>
+
+<p>Gnome isn’t as flexible as Wm’s or Kde when it comes to style. But it can <strong>change</strong> a lot and improve.</p>
+
+<blockquote>
+  <p>One of the mains reasons to choose Linux over Windows or Mac is that you can and you may tailor your OS for your personal needs. You don’t use a “for everyone” OS. You have your own OS that is optimized for your workflow.</p>
+</blockquote>
+
+<p>For that you have to install <code class="language-plaintext highlighter-rouge">gnome-tweak-tools</code>. This module enables you to install extensions from <a href="https://extensions.gnome.org/#">GNOME Shell Extensions</a>. It can be added with <strong>ease</strong> from this website. If you want to change the style then. You’ll find <strong>extensions</strong> such as Caffeine, Dash to Dock, User Themes etc.</p>
+
+<p>I recommend you use <a href="https://www.gnome-look.org/browse/cat/134/order/latest/">Gnome Shell Themes - Gnome-look.org</a> as <strong>theme</strong> store for Gnome. The themes are easily installable as you have a superb <a href="https://www.pling.com/p/1136805/">helper</a>.</p>
+
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
