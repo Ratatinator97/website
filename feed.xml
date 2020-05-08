@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator>
+  
+  
+  <link href="https://ratatinator97.github.io/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://ratatinator97.github.io/" rel="alternate" type="text/html" />
+  <updated>2020-05-08T22:14:10+00:00</updated>
+  <id>https://ratatinator97.github.io//</id>
+
+  
+    <title type="html">Alex’s Website</title>
+  
+
+  
+    <subtitle>Hello, I'm Alex. I'm a Telecomunications student at the INSA de Lyon (France) and I love computer science too ! You will find articles about CS, Linux+GNU and other things I'm intrested into. I'll maybe write some daily life tips or things I use a lot etc.</subtitle>
+  
+
+  
+
+  
+  
+    <entry>
+      
+      <title type="html">Guide to a wholesome Python dev environment</title>
+      
+      
+      <link href="https://ratatinator97.github.io/2020/05/01/python-dev-environment/" rel="alternate" type="text/html" title="Guide to a wholesome Python dev environment" />
+      
+      <published>2020-05-01T17:41:35+00:00</published>
+      <updated>2020-05-01T17:41:35+00:00</updated>
+      <id>https://ratatinator97.github.io/2020/05/01/python-dev-environment</id>
+      <content type="html" xml:base="https://ratatinator97.github.io/2020/05/01/python-dev-environment/">&lt;p&gt;I started coding with python, at the time I was 17 and barely knew about how much is the development environment important. Not just the computer itself is important but furthermore the Software. I was using windows and the  basic Python IDE for an approx. 1000 lines project.&lt;/p&gt;
+
+&lt;p&gt;Module import was a nightmare for me as much as learning the language.&lt;/p&gt;
+
+&lt;p&gt;I recently faced a problem related to modules. My system’s Python version was &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.8&lt;/code&gt; and I needed the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.6&lt;/code&gt; version for the script to run. Furthermore I needed &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.6&lt;/code&gt; version &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cryptodome&lt;/code&gt; module.&lt;/p&gt;
+
+&lt;p&gt;Some Qwant searchs later on I found about Pipenv and Pyenv.&lt;/p&gt;
+
+&lt;h2 id=&quot;pyenv&quot;&gt;Pyenv&lt;/h2&gt;
+
+&lt;p&gt;Pyenv allows us to have multiple python versions in one OS. By changing the  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;symlinks&lt;/code&gt; and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Path&lt;/code&gt; variable it manages to change the direction of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Python&lt;/code&gt; commands and redirect to the other python versions.&lt;/p&gt;
+
+&lt;p&gt;Here is a link to the &lt;a href=&quot;https://github.com/pyenv/pyenv&quot;&gt;documentation&lt;/a&gt;, I may have done mistakes while explaining the process. Here are the &lt;a href=&quot;https://github.com/pyenv/pyenv/blob/master/COMMANDS.md&quot;&gt;main commands&lt;/a&gt; of Pyenv.&lt;/p&gt;
+
+&lt;p&gt;But What if we want to install modules alongside our newly created Python version ?&lt;/p&gt;
+
+&lt;p&gt;Well it’s “complicated”&lt;/p&gt;
+
+&lt;p&gt;I had many problems and issues and that’s why I recommend you the following tool :&lt;/p&gt;
+
+&lt;h2 id=&quot;pipenv&quot;&gt;Pipenv&lt;/h2&gt;
+
+&lt;p&gt;Pipenv eases the problem of Python and Pip version Pyenv had. It creates a Pyenv environement with a Pip too.&lt;/p&gt;
+
+&lt;p&gt;Said like this, Pipenv is the dream come true of Python developers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;It isn’t.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Pipenv has sometimes problems with it’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pipenv.lock&lt;/code&gt;. I had a problem when managing the modules for my Deep Reinforcement Learning you can look at &lt;a href=&quot;https://github.com/Ratatinator97/LunarLander-DQN&quot;&gt;there&lt;/a&gt;. The Pipenv &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;install &quot;module&quot;&lt;/code&gt; command was taking an eternity and I seemed broken.&lt;/p&gt;
+
+&lt;p&gt;And there’s how I found &lt;a href=&quot;https://python-poetry.org/&quot;&gt;Poetry&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;poetry&quot;&gt;Poetry&lt;/h1&gt;
+
+&lt;p&gt;From Poetry’s website : &lt;em&gt;Python packaging and dependency management made easy&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;And trust me it is easy !&lt;/p&gt;
+
+&lt;p&gt;I didn’t experience bugs about &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*.lock&lt;/code&gt; or colossal wait during a command. It is simple and effective.&lt;/p&gt;
+
+&lt;p&gt;But Poetry doesn’t change the Python version by itself, you have to create a Pyenv environment with the chosen version and then in the environment init a Poetry project. Look at their amazing documentation if you need some help.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+        <summary type="html">I started coding with python, at the time I was 17 and barely knew about how much is the development environment important. Not just the computer itself is important but furthermore the Software. I was using windows and the basic Python IDE for an approx. 1000 lines project.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Optimize your Linux experience</title>
+      
+      
+      <link href="https://ratatinator97.github.io/2020/05/01/my-linux-setup/" rel="alternate" type="text/html" title="Optimize your Linux experience" />
+      
+      <published>2020-05-01T17:41:35+00:00</published>
+      <updated>2020-05-01T17:41:35+00:00</updated>
+      <id>https://ratatinator97.github.io/2020/05/01/my-linux-setup</id>
+      <content type="html" xml:base="https://ratatinator97.github.io/2020/05/01/my-linux-setup/">&lt;p&gt;If you are interested in Gnu+Linux you’re in the right place. I started using Linux as my daily drive 2 years ago. At the time I barely knew Linux. Here you’ll find my main tools that enable me to have a nice setup and be productive as hell.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-shell&quot;&gt;The shell&lt;/h2&gt;
+
+&lt;p&gt;Is one of the &lt;strong&gt;main tools&lt;/strong&gt; if not the main tool of a Linux computer. You will spend a lot of time there and you have to be &lt;strong&gt;comfortable&lt;/strong&gt; in there.&lt;/p&gt;
+
+&lt;p&gt;Most of the distros are shipped with &lt;strong&gt;Bash&lt;/strong&gt;. It’s a great and powerful tool but for me it wasn’t very enjoyable. Many times my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tab&lt;/code&gt; completion did not work because of a typo. Other times it wasn’t handy when selecting items displayed by the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tab&lt;/code&gt; command. Bash’s tab auto-completion isn’t good enough.&lt;/p&gt;
+
+&lt;p&gt;But then I heard of Zsh, a &lt;strong&gt;child&lt;/strong&gt; of Bash.&lt;/p&gt;
+
+&lt;h3 id=&quot;zsh&quot;&gt;Zsh&lt;/h3&gt;
+
+&lt;p&gt;If you had already learned Bash and started to be confident using it then don’t worry. Zsh and Bash are very &lt;strong&gt;similar&lt;/strong&gt;. Most commands are identical and the logic is the same. Although they seem identical, Zsh have some &lt;strong&gt;improvements&lt;/strong&gt; it’s father has not !&lt;/p&gt;
+
+&lt;h4 id=&quot;tab-auto-completion&quot;&gt;Tab Auto-completion&lt;/h4&gt;
+
+&lt;p&gt;is &lt;strong&gt;great&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;amp;id=1NmzyZiOZzeVfV2D72WHs61li2tkaS888&quot; alt=&quot;A picture about the amazing features of Zsh&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can &lt;strong&gt;navigate&lt;/strong&gt; through the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tab&lt;/code&gt; results with your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arrow keys&lt;/code&gt; or just pressing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tab&lt;/code&gt; to hop to the next element.&lt;/p&gt;
+
+&lt;p&gt;A misspelled &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd documents&lt;/code&gt; will transform into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd Documents&lt;/code&gt; &lt;strong&gt;magically&lt;/strong&gt; !&lt;/p&gt;
+
+&lt;h5 id=&quot;style&quot;&gt;Style&lt;/h5&gt;
+
+&lt;p&gt;Zsh supports many &lt;strong&gt;theme&lt;/strong&gt;s. I don’t say Bash hasn’t but it’s good to know.&lt;/p&gt;
+
+&lt;h5 id=&quot;oh-my-zsh-&quot;&gt;&lt;a href=&quot;https://ohmyz.sh/&quot;&gt;Oh my Zsh&lt;/a&gt; !&lt;/h5&gt;
+
+&lt;p&gt;Is a &lt;strong&gt;great bundle of plugins&lt;/strong&gt; and themes ! It is an &lt;em&gt;incontournable&lt;/em&gt; of Zsh.&lt;/p&gt;
+
+&lt;p&gt;I won’t go through the plugins as they are already documented in their website.&lt;/p&gt;
+
+&lt;h6 id=&quot;be-carefull-you-have-to-use-the-zshrc-instead-of-the-bashrc-&quot;&gt;Be Carefull: you have to use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt; instead of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt; .&lt;/h6&gt;
+
+&lt;h2 id=&quot;battery-optimization&quot;&gt;Battery optimization&lt;/h2&gt;
+
+&lt;p&gt;A lot of students and developers out there use &lt;strong&gt;laptops&lt;/strong&gt; as main computers when it comes to &lt;strong&gt;work&lt;/strong&gt;. Most of our devices doesn’t last a day. I see a lot of colleagues that are plugged in more than &lt;u&gt;two times a day&lt;/u&gt; and they make me suffer because Linux has a &lt;strong&gt;lot&lt;/strong&gt; of battery optimization tools.&lt;/p&gt;
+
+&lt;h4 id=&quot;tlp&quot;&gt;TLP&lt;/h4&gt;
+
+&lt;p&gt;I don’t know what TLP stands for but I know it gives me more than &lt;strong&gt;2h&lt;/strong&gt; of &lt;strong&gt;battery&lt;/strong&gt; ! The install and setup is straightforward. Satisfaction guaranteed !&lt;/p&gt;
+
+&lt;p&gt;Here is the link to the &lt;a href=&quot;[TLP - Optimize Linux Laptop Battery Life &amp;mdash; TLP 1.3.1 documentation](https://linrunner.de/tlp/index.html)&quot;&gt;documentation&lt;/a&gt; !&lt;/p&gt;
+
+&lt;h4 id=&quot;powertop&quot;&gt;Powertop&lt;/h4&gt;
+
+&lt;p&gt;It is another one battery optimizer. It gives me the same results that with TLP.&lt;/p&gt;
+
+&lt;h2 id=&quot;zram-zswap-or-zcache-&quot;&gt;Zram, Zswap or Zcache ?&lt;/h2&gt;
+
+&lt;p&gt;Linux offers many solutions when it comes to optimize. You have seen two battery optimization tools. But what about &lt;strong&gt;Ram&lt;/strong&gt; optimization ?&lt;/p&gt;
+
+&lt;p&gt;When you define partitions for your Linux OS, you are often offered a Swap partition. Swap is a “fake” Ram, it acts like it but as it is stored in your hard drive it is &lt;strong&gt;much slower&lt;/strong&gt; than your Ram (physical). Yet not, don’t delete that partitions because Swap is very useful.&lt;/p&gt;
+
+&lt;p&gt;So here we face multiple positions :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you &lt;strong&gt;don’t&lt;/strong&gt; have a Swap partition then go for Zram&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you have Swap go for Zswap&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you like risks and want bleeding edge tools go for Zcache, is it not ready yet but it does a better job than Zswap.&lt;/p&gt;
+
+    &lt;p&gt;If you want to know more about it, I recommend you to read &lt;a href=&quot;[kernel - zram vs zswap vs zcache Ultimate guide: when to use which one - Ask Ubuntu](https://askubuntu.com/questions/471912/zram-vs-zswap-vs-zcache-ultimate-guide-when-to-use-which-one)&quot;&gt;this post&lt;/a&gt; on StackExchange.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;gnome&quot;&gt;Gnome&lt;/h2&gt;
+
+&lt;p&gt;For the Ubuntu or the elementary OS you may know your DE (desktop env.) is   GNOME. I personally use Gnome under Wayland and I find it very good. It is the main alternative of Kde at this time and same you’re not fan of WM’s (Window Managers).&lt;/p&gt;
+
+&lt;h3 id=&quot;gnome-vanilla-is-nice-but-can-be-improved&quot;&gt;Gnome vanilla is nice but can be improved&lt;/h3&gt;
+
+&lt;p&gt;If you don’t use Ubuntu then you may want to use &lt;a href=&quot;https://snapcraft.io/&quot;&gt;Snapcraft&lt;/a&gt; as well. It is a widely popular “App” Store. It is developed by Canonical so only Ubuntu based distributions support it in native. &lt;strong&gt;But other distros can use it too !&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you build your Linux from scratch you may want to have &lt;strong&gt;Flatpack&lt;/strong&gt; too. It is installed on Gnome by default.&lt;/p&gt;
+
+&lt;p&gt;One thing that is very important is to be careful of the &lt;strong&gt;permissions&lt;/strong&gt; of the snap/flatpack package. They are usually &lt;strong&gt;very restricted&lt;/strong&gt; (i.e. can only use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/&lt;/code&gt; by default). If you have a package that needs access to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/bin&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr&lt;/code&gt; you have to &lt;strong&gt;give&lt;/strong&gt; then the access to it. You can learn more about it &lt;a href=&quot;[Sandbox Permissions &amp;mdash; Flatpak documentation](https://docs.flatpak.org/en/latest/sandbox-permissions.html)&quot;&gt;there&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;unixporn&quot;&gt;&lt;a href=&quot;[r/unixporn - the home for *NIX customization!](https://www.reddit.com/r/unixporn/)&quot;&gt; UnixPorn&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Gnome isn’t as flexible as Wm’s or Kde when it comes to style. But it can &lt;strong&gt;change&lt;/strong&gt; a lot and improve.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;One of the mains reasons to choose Linux over Windows or Mac is that you can and you may tailor your OS for your personal needs. You don’t use a “for everyone” OS. You have your own OS that is optimized for your workflow.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For that you have to install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gnome-tweak-tools&lt;/code&gt;. This module enables you to install extensions from &lt;a href=&quot;https://extensions.gnome.org/#&quot;&gt;GNOME Shell Extensions&lt;/a&gt;. It can be added with &lt;strong&gt;ease&lt;/strong&gt; from this website. If you want to change the style then. You’ll find &lt;strong&gt;extensions&lt;/strong&gt; such as Caffeine, Dash to Dock, User Themes etc.&lt;/p&gt;
+
+&lt;p&gt;I recommend you use &lt;a href=&quot;https://www.gnome-look.org/browse/cat/134/order/latest/&quot;&gt;Gnome Shell Themes - Gnome-look.org&lt;/a&gt; as &lt;strong&gt;theme&lt;/strong&gt; store for Gnome. The themes are easily installable as you have a superb &lt;a href=&quot;https://www.pling.com/p/1136805/&quot;&gt;helper&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+        <summary type="html">If you are interested in Gnu+Linux you’re in the right place. I started using Linux as my daily drive 2 years ago. At the time I barely knew Linux. Here you’ll find my main tools that enable me to have a nice setup and be productive as hell.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+</feed>
