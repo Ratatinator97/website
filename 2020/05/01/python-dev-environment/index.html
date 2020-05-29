@@ -13,18 +13,18 @@
   <meta name="description" content="I started coding with python, at the time I was 17 and barely knew about how much is the development environment important. Not just the computer itself is important but furthermore the Software. I was using windows and the basic Python IDE for an approx. 1000 lines project.">
   
 
-  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="https://ratatinator97.github.io/2020/05/01/python-dev-environment/">
+  <link rel="stylesheet" href="/website/assets/main.css">
+  <link rel="canonical" href="https://ratatinator97.github.io/website/2020/05/01/python-dev-environment/">
   
   
-  <link rel="alternate" type="application/rss+xml" title="Alex&#39;s Website" href="https://ratatinator97.github.io/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Alex&#39;s Website" href="https://ratatinator97.github.io/website/feed.xml">
 
   
 
   
   <meta property="og:title" content="Guide to a wholesome Python dev environment">
   <meta property="og:site_name" content="Alex&#39;s Website">
-  <meta property="og:url" content="https://ratatinator97.github.io/2020/05/01/python-dev-environment/">
+  <meta property="og:url" content="https://ratatinator97.github.io/website/2020/05/01/python-dev-environment/">
   <meta property="og:description" content="I started coding with python, at the time I was 17 and barely knew about how much is the development environment important. Not just the computer itself is important but furthermore the Software. I was using windows and the basic Python IDE for an approx. 1000 lines project.">
   
   
@@ -50,15 +50,15 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/">Alex&#39;s Website</a>
+    <a class="site-title" href="/website/">Alex&#39;s Website</a>
 
     <nav class="site-nav">
       
         
-        <a class="page-link" href="/about/">About</a>
+        <a class="page-link" href="/website/about/">About</a>
       
         
-        <a class="page-link" href="/archives/">Archives</a>
+        <a class="page-link" href="/website/archives/">Archives</a>
       
         
         <a class="page-link" href="https://github.com/yous/whiteglass">GitHub</a>
@@ -82,45 +82,45 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>I started coding with python, at the time I was 17 and barely knew about how much is the development environment important. Not just the computer itself is important but furthermore the Software. I was using windows and the  basic Python IDE for an approx. 1000 lines project.</p>
+    <p>I started coding with python, at the time I was 17 and barely knew about how much is the development environment important. Not just the computer itself is important but furthermore the Software. I was using windows and the basic Python IDE for an approx. 1000 lines project.</p>
 
 <p>Module import was a nightmare for me as much as learning the language.</p>
 
-<p>I recently faced a problem related to modules. My system’s Python version was <code class="language-plaintext highlighter-rouge">3.8</code> and I needed the <code class="language-plaintext highlighter-rouge">3.6</code> version for the script to run. Furthermore I needed <code class="language-plaintext highlighter-rouge">3.6</code> version <code class="language-plaintext highlighter-rouge">cryptodome</code> module.</p>
+<p>I recently faced a problem related to modules. My system’s Python version was 3.8 and I needed the 3.6 version for the script to run. Furthermore, I needed 3.6 version cryptodome module.</p>
 
-<p>Some Qwant searchs later on I found about Pipenv and Pyenv.</p>
+<p>Some Qwant searches, later on, I found about Pipenv and Pyenv.</p>
 
 <h2 id="pyenv">Pyenv</h2>
 
-<p>Pyenv allows us to have multiple python versions in one OS. By changing the  <code class="language-plaintext highlighter-rouge">symlinks</code> and the <code class="language-plaintext highlighter-rouge">Path</code> variable it manages to change the direction of the <code class="language-plaintext highlighter-rouge">Python</code> commands and redirect to the other python versions.</p>
+<p>Pyenv allows us to have multiple python versions in one OS. By changing the symlinks and the Path variable it manages to change the direction of the Python commands and redirect to the other python versions.</p>
 
 <p>Here is a link to the <a href="https://github.com/pyenv/pyenv">documentation</a>, I may have done mistakes while explaining the process. Here are the <a href="https://github.com/pyenv/pyenv/blob/master/COMMANDS.md">main commands</a> of Pyenv.</p>
 
-<p>But What if we want to install modules alongside our newly created Python version ?</p>
+<p>But What if we want to install modules alongside our newly created Python version?</p>
 
 <p>Well it’s “complicated”</p>
 
-<p>I had many problems and issues and that’s why I recommend you the following tool :</p>
+<p>I had many problems and issues and that’s why I recommend the following tool :</p>
 
 <h2 id="pipenv">Pipenv</h2>
 
-<p>Pipenv eases the problem of Python and Pip version Pyenv had. It creates a Pyenv environement with a Pip too.</p>
+<p>Pipenv eases the problem of Python and Pip version Pyenv had. It creates a Pyenv environment with a Pip too.</p>
 
 <p>Said like this, Pipenv is the dream come true of Python developers.</p>
 
 <p><strong>It isn’t.</strong></p>
 
-<p>Pipenv has sometimes problems with it’s <code class="language-plaintext highlighter-rouge">pipenv.lock</code>. I had a problem when managing the modules for my Deep Reinforcement Learning you can look at <a href="https://github.com/Ratatinator97/LunarLander-DQN">there</a>. The Pipenv <code class="language-plaintext highlighter-rouge">install "module"</code> command was taking an eternity and I seemed broken.</p>
+<p>Pipenv has sometimes problems with its pipenv.lock. I had a problem when managing the modules for my Deep Reinforcement Learning you can look at <a href="https://github.com/Ratatinator97/LunarLander-DQN">there</a>. The Pipenv install "module" command was taking an eternity and I seemed broken.</p>
 
-<p>And there’s how I found <a href="https://python-poetry.org/">Poetry</a>.</p>
+<p>And here’s how I found <a href="https://python-poetry.org/">Poetry</a>.</p>
 
 <h1 id="poetry">Poetry</h1>
 
-<p>From Poetry’s website : <em>Python packaging and dependency management made easy</em></p>
+<p>From Poetry’s website: <em>Python packaging and dependency management made easy</em></p>
 
-<p>And trust me it is easy !</p>
+<p>And trust me it is easy!</p>
 
-<p>I didn’t experience bugs about <code class="language-plaintext highlighter-rouge">*.lock</code> or colossal wait during a command. It is simple and effective.</p>
+<p>I didn’t experience bugs about *.lock or colossal wait during a command. It is simple and effective.</p>
 
 <p>But Poetry doesn’t change the Python version by itself, you have to create a Pyenv environment with the chosen version and then in the environment init a Poetry project. Look at their amazing documentation if you need some help.</p>
 
@@ -140,7 +140,7 @@
     <p>
       
 
-&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="https://ratatinator97.github.io/feed.xml">RSS</a>
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="https://ratatinator97.github.io/website/feed.xml">RSS</a>
 
     </p>
 

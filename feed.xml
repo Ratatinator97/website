@@ -3,10 +3,10 @@
   <generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator>
   
   
-  <link href="https://ratatinator97.github.io/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://ratatinator97.github.io/" rel="alternate" type="text/html" />
-  <updated>2020-05-10T15:58:25+00:00</updated>
-  <id>https://ratatinator97.github.io//</id>
+  <link href="https://ratatinator97.github.io/website/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://ratatinator97.github.io/website/" rel="alternate" type="text/html" />
+  <updated>2020-05-29T11:37:02+00:00</updated>
+  <id>https://ratatinator97.github.io/website//</id>
 
   
     <title type="html">Alex’s Website</title>
@@ -25,50 +25,50 @@
       <title type="html">Guide to a wholesome Python dev environment</title>
       
       
-      <link href="https://ratatinator97.github.io/2020/05/01/python-dev-environment/" rel="alternate" type="text/html" title="Guide to a wholesome Python dev environment" />
+      <link href="https://ratatinator97.github.io/website/2020/05/01/python-dev-environment/" rel="alternate" type="text/html" title="Guide to a wholesome Python dev environment" />
       
       <published>2020-05-01T17:41:35+00:00</published>
       <updated>2020-05-01T17:41:35+00:00</updated>
-      <id>https://ratatinator97.github.io/2020/05/01/python-dev-environment</id>
-      <content type="html" xml:base="https://ratatinator97.github.io/2020/05/01/python-dev-environment/">&lt;p&gt;I started coding with python, at the time I was 17 and barely knew about how much is the development environment important. Not just the computer itself is important but furthermore the Software. I was using windows and the  basic Python IDE for an approx. 1000 lines project.&lt;/p&gt;
+      <id>https://ratatinator97.github.io/website/2020/05/01/python-dev-environment</id>
+      <content type="html" xml:base="https://ratatinator97.github.io/website/2020/05/01/python-dev-environment/">&lt;p&gt;I started coding with python, at the time I was 17 and barely knew about how much is the development environment important. Not just the computer itself is important but furthermore the Software. I was using windows and the basic Python IDE for an approx. 1000 lines project.&lt;/p&gt;
 
 &lt;p&gt;Module import was a nightmare for me as much as learning the language.&lt;/p&gt;
 
-&lt;p&gt;I recently faced a problem related to modules. My system’s Python version was &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.8&lt;/code&gt; and I needed the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.6&lt;/code&gt; version for the script to run. Furthermore I needed &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.6&lt;/code&gt; version &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cryptodome&lt;/code&gt; module.&lt;/p&gt;
+&lt;p&gt;I recently faced a problem related to modules. My system’s Python version was 3.8 and I needed the 3.6 version for the script to run. Furthermore, I needed 3.6 version cryptodome module.&lt;/p&gt;
 
-&lt;p&gt;Some Qwant searchs later on I found about Pipenv and Pyenv.&lt;/p&gt;
+&lt;p&gt;Some Qwant searches, later on, I found about Pipenv and Pyenv.&lt;/p&gt;
 
 &lt;h2 id=&quot;pyenv&quot;&gt;Pyenv&lt;/h2&gt;
 
-&lt;p&gt;Pyenv allows us to have multiple python versions in one OS. By changing the  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;symlinks&lt;/code&gt; and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Path&lt;/code&gt; variable it manages to change the direction of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Python&lt;/code&gt; commands and redirect to the other python versions.&lt;/p&gt;
+&lt;p&gt;Pyenv allows us to have multiple python versions in one OS. By changing the symlinks and the Path variable it manages to change the direction of the Python commands and redirect to the other python versions.&lt;/p&gt;
 
 &lt;p&gt;Here is a link to the &lt;a href=&quot;https://github.com/pyenv/pyenv&quot;&gt;documentation&lt;/a&gt;, I may have done mistakes while explaining the process. Here are the &lt;a href=&quot;https://github.com/pyenv/pyenv/blob/master/COMMANDS.md&quot;&gt;main commands&lt;/a&gt; of Pyenv.&lt;/p&gt;
 
-&lt;p&gt;But What if we want to install modules alongside our newly created Python version ?&lt;/p&gt;
+&lt;p&gt;But What if we want to install modules alongside our newly created Python version?&lt;/p&gt;
 
 &lt;p&gt;Well it’s “complicated”&lt;/p&gt;
 
-&lt;p&gt;I had many problems and issues and that’s why I recommend you the following tool :&lt;/p&gt;
+&lt;p&gt;I had many problems and issues and that’s why I recommend the following tool :&lt;/p&gt;
 
 &lt;h2 id=&quot;pipenv&quot;&gt;Pipenv&lt;/h2&gt;
 
-&lt;p&gt;Pipenv eases the problem of Python and Pip version Pyenv had. It creates a Pyenv environement with a Pip too.&lt;/p&gt;
+&lt;p&gt;Pipenv eases the problem of Python and Pip version Pyenv had. It creates a Pyenv environment with a Pip too.&lt;/p&gt;
 
 &lt;p&gt;Said like this, Pipenv is the dream come true of Python developers.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;It isn’t.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Pipenv has sometimes problems with it’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pipenv.lock&lt;/code&gt;. I had a problem when managing the modules for my Deep Reinforcement Learning you can look at &lt;a href=&quot;https://github.com/Ratatinator97/LunarLander-DQN&quot;&gt;there&lt;/a&gt;. The Pipenv &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;install &quot;module&quot;&lt;/code&gt; command was taking an eternity and I seemed broken.&lt;/p&gt;
+&lt;p&gt;Pipenv has sometimes problems with its pipenv.lock. I had a problem when managing the modules for my Deep Reinforcement Learning you can look at &lt;a href=&quot;https://github.com/Ratatinator97/LunarLander-DQN&quot;&gt;there&lt;/a&gt;. The Pipenv install &quot;module&quot; command was taking an eternity and I seemed broken.&lt;/p&gt;
 
-&lt;p&gt;And there’s how I found &lt;a href=&quot;https://python-poetry.org/&quot;&gt;Poetry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And here’s how I found &lt;a href=&quot;https://python-poetry.org/&quot;&gt;Poetry&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;poetry&quot;&gt;Poetry&lt;/h1&gt;
 
-&lt;p&gt;From Poetry’s website : &lt;em&gt;Python packaging and dependency management made easy&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;From Poetry’s website: &lt;em&gt;Python packaging and dependency management made easy&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;And trust me it is easy !&lt;/p&gt;
+&lt;p&gt;And trust me it is easy!&lt;/p&gt;
 
-&lt;p&gt;I didn’t experience bugs about &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*.lock&lt;/code&gt; or colossal wait during a command. It is simple and effective.&lt;/p&gt;
+&lt;p&gt;I didn’t experience bugs about *.lock or colossal wait during a command. It is simple and effective.&lt;/p&gt;
 
 &lt;p&gt;But Poetry doesn’t change the Python version by itself, you have to create a Pyenv environment with the chosen version and then in the environment init a Poetry project. Look at their amazing documentation if you need some help.&lt;/p&gt;</content>
 
@@ -99,12 +99,12 @@
       <title type="html">Optimize your Linux experience</title>
       
       
-      <link href="https://ratatinator97.github.io/2020/05/01/my-linux-setup/" rel="alternate" type="text/html" title="Optimize your Linux experience" />
+      <link href="https://ratatinator97.github.io/website/2020/05/01/my-linux-setup/" rel="alternate" type="text/html" title="Optimize your Linux experience" />
       
       <published>2020-05-01T17:41:35+00:00</published>
       <updated>2020-05-01T17:41:35+00:00</updated>
-      <id>https://ratatinator97.github.io/2020/05/01/my-linux-setup</id>
-      <content type="html" xml:base="https://ratatinator97.github.io/2020/05/01/my-linux-setup/">&lt;p&gt;If you are interested in Gnu+Linux you’re in the right place. I started using Linux as my daily drive 2 years ago. At the time I barely knew Linux. Here you’ll find my main tools that enable me to have a nice setup and be productive as hell.&lt;/p&gt;
+      <id>https://ratatinator97.github.io/website/2020/05/01/my-linux-setup</id>
+      <content type="html" xml:base="https://ratatinator97.github.io/website/2020/05/01/my-linux-setup/">&lt;p&gt;If you are interested in Gnu+Linux you’re in the right place. I started using Linux as my daily drive 2 years ago. At the time I barely knew Linux. Here you’ll find my main tools that enable me to have a nice setup and be productive as hell.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-shell&quot;&gt;The shell&lt;/h2&gt;
 
