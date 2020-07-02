@@ -3,10 +3,10 @@
   <generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator>
   
   
-  <link href="https://ratatinator97.github.io/website/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://ratatinator97.github.io/website/" rel="alternate" type="text/html" />
-  <updated>2020-07-02T08:26:20+00:00</updated>
-  <id>https://ratatinator97.github.io/website//</id>
+  <link href="https://website.asidiras.dev/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://website.asidiras.dev/" rel="alternate" type="text/html" />
+  <updated>2020-07-02T08:52:14+00:00</updated>
+  <id>https://website.asidiras.dev//</id>
 
   
     <title type="html">Alex’s Website</title>
@@ -25,12 +25,12 @@
       <title type="html">Guide to a wholesome Python dev environment</title>
       
       
-      <link href="https://ratatinator97.github.io/website/2020/05/01/python-dev-environment/" rel="alternate" type="text/html" title="Guide to a wholesome Python dev environment" />
+      <link href="https://website.asidiras.dev/2020/05/01/python-dev-environment/" rel="alternate" type="text/html" title="Guide to a wholesome Python dev environment" />
       
       <published>2020-05-01T17:41:35+00:00</published>
       <updated>2020-05-01T17:41:35+00:00</updated>
-      <id>https://ratatinator97.github.io/website/2020/05/01/python-dev-environment</id>
-      <content type="html" xml:base="https://ratatinator97.github.io/website/2020/05/01/python-dev-environment/">&lt;p&gt;I started coding with python, at the time I was 17 and barely knew about how much is the development environment important. Not just the computer itself is important but furthermore the Software. I was using windows and the basic Python IDE for an approx. 1000 lines project.&lt;/p&gt;
+      <id>https://website.asidiras.dev/2020/05/01/python-dev-environment</id>
+      <content type="html" xml:base="https://website.asidiras.dev/2020/05/01/python-dev-environment/">&lt;p&gt;I started coding with python, at the time I was 17 and barely knew about how much is the development environment important. Not just the computer itself is important but furthermore the Software. I was using windows and the basic Python IDE for an approx. 1000 lines project.&lt;/p&gt;
 
 &lt;p&gt;Module import was a nightmare for me as much as learning the language.&lt;/p&gt;
 
@@ -99,12 +99,12 @@
       <title type="html">Optimize your Linux experience</title>
       
       
-      <link href="https://ratatinator97.github.io/website/2020/05/01/my-linux-setup/" rel="alternate" type="text/html" title="Optimize your Linux experience" />
+      <link href="https://website.asidiras.dev/2020/05/01/my-linux-setup/" rel="alternate" type="text/html" title="Optimize your Linux experience" />
       
       <published>2020-05-01T17:41:35+00:00</published>
       <updated>2020-05-01T17:41:35+00:00</updated>
-      <id>https://ratatinator97.github.io/website/2020/05/01/my-linux-setup</id>
-      <content type="html" xml:base="https://ratatinator97.github.io/website/2020/05/01/my-linux-setup/">&lt;p&gt;If you are interested in Gnu+Linux you’re in the right place. I started using Linux as my daily drive 2 years ago. At the time I barely knew Linux. Here you’ll find my main tools that enable me to have a nice setup and be productive as hell.&lt;/p&gt;
+      <id>https://website.asidiras.dev/2020/05/01/my-linux-setup</id>
+      <content type="html" xml:base="https://website.asidiras.dev/2020/05/01/my-linux-setup/">&lt;p&gt;If you are interested in Gnu+Linux you’re in the right place. I started using Linux as my daily drive 2 years ago. At the time I barely knew Linux. Here you’ll find my main tools that enable me to have a nice setup and be productive as hell.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-shell&quot;&gt;The shell&lt;/h2&gt;
 

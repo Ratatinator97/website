@@ -1,1 +1,1 @@
-Sitemap: https://ratatinator97.github.io/website/sitemap.xml
+Sitemap: https://website.asidiras.dev/sitemap.xml
