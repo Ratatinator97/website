@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>Pop Sciences Introduction Au Html</title>
+  <meta name="description" content="L’application web que j’ai développée Pictalk, comme tout ce qui est sur le web, utilise HTML.">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2022/01/26/pop-sciences-introduction-au-HTML/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="Alex&#39;s Website" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+  <meta property="og:title" content="Pop Sciences Introduction Au Html">
+  <meta property="og:site_name" content="Alex&#39;s Website">
+  <meta property="og:url" content="http://localhost:4000/2022/01/26/pop-sciences-introduction-au-HTML/">
+  <meta property="og:description" content="L’application web que j’ai développée Pictalk, comme tout ce qui est sur le web, utilise HTML.">
+  
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="Pop Sciences Introduction Au Html">
+  <meta name="twitter:description" content="L’application web que j’ai développée Pictalk, comme tout ce qui est sur le web, utilise HTML.">
+  
+  
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Alex&#39;s Website</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/about/">About</a>
+      
+        
+        <a class="page-link" href="/archives/">Archives</a>
+      
+        
+        <a class="page-link" href="https://github.com/yous/whiteglass">GitHub</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+      <h1 class="post-title" itemprop="name headline">Pop Sciences Introduction Au Html</h1>
+    
+    <p class="post-meta"><time datetime="2022-01-26T00:00:00+01:00" itemprop="datePublished">Jan 26, 2022</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>L’application web que j’ai développée Pictalk, comme tout ce qui est sur le web, utilise HTML.</p>
+
+<p>HTML <a href="https://www.linternaute.fr/dictionnaire/fr/definition/quesaco/">kézako</a>  ?</p>
+
+<p>HTML en langue anglaise signifie “HyperText Markup Language”.  Je sais… ça ne nous aide pas bien plus… L’HTML est le language qui est utilisé pour structurer une page web et son contenu. Les premières pages HTML ressemblent pas mal à un document Word:</p>
+
+<p><img src="https://www.pierre-giraud.com/wp-content/uploads/2019/05/affichage-titres-h-html.png" alt="" /></p>
+
+<p>On dispose de titres, sous-titres, paragraphes et même d’images 🤩 ça ressemblait un peu à ça le web au début.</p>
+
+<p>Dans ce court TP nous allons comprendre la syntaxe de ce language et l’utiliser pour faire un site web personnalisé qui nous présente 😎</p>
+
+<h2 id="les-bases">Les bases</h2>
+
+<p>Ne prenez pas peur !!! Tous ces caractères farfelus ne sont enfaite pas si difficiles à comprendre.</p>
+
+<p>On va commencer par la base de la base:</p>
+
+<p>HTML fonctionne avec des balises (ces <code class="language-plaintext highlighter-rouge">&lt; &gt; &lt; /&gt;</code> trucs). La balise <code class="language-plaintext highlighter-rouge">&lt;exemple&gt;</code> indique le début d’un élément de type exemple  et <code class="language-plaintext highlighter-rouge">&lt;/exemple&gt;</code> indique au contraire sa fin. Tout ce qui va se trouver entre ces balises est donc un élément de type <em>exemple</em>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;exemple&gt; Je suis un texte de type exemple &lt;/exemple&gt;</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;p&gt; Je suis un texte de type paragraphe &lt;/p&gt;</code></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;titre&gt;</span>
+Je suis un texte de type titre
+<span class="nt">&lt;italique&gt;</span> Je suis un texte de type titre ET italique <span class="nt">&lt;/italique&gt;</span>
+<span class="nt">&lt;/titre&gt;</span>
+<span class="nt">&lt;p&gt;</span> Je suis un texte de type paragraphe et je ne suis pas un titre <span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<p>Cet exemple bien qu’il soit faux a du vous permettre de bien comprendre ce fonctionnement en balises.</p>
+
+<p>Passons maintenant à quelque chose de plus concret:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+
+<span class="nt">&lt;h1&gt;</span>Coucou Pop'sciences<span class="nt">&lt;/h1&gt;</span>
+
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<p>La balise <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code> dit tout simplement qu’il s’agit d’un code écrit en HTML. Il y a bien d’autres langages de programmation et il faut donc bien préciser dans quelle langage ont écrit à chaque fois !</p>
+
+<p>La balise <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code> (en français: <em>corps</em>)  est utilisée pour signaler le <strong>corps</strong> de la page web. C’est ici que l’on va placer le titre, les paragraphes, les images etc.</p>
+
+<p>La balise <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code>  qui est l’abréviation de <strong>heading</strong> (en français: <em>titre</em>) nous permet d’écrire un titre. Pour écrire un titre plus petit il suffit d’incrémenter (faire monter) le chiffre à côté du <code class="language-plaintext highlighter-rouge">h</code> . Par exemple <code class="language-plaintext highlighter-rouge">&lt;h6&gt;</code> va être un titre très petit et <code class="language-plaintext highlighter-rouge">&lt;h3</code> sera un titre de taille moyenne.</p>
+
+<p>La brique de code d’au dessus va donner cela:</p>
+
+<p><img src="/assets/img/2022-01-26-11-52-40-image.png" alt="" /></p>
+
+<p>Cooooool pas vrai ? Vous devriez être chauds bouillants pour la suite dans ce cas.</p>
+
+<h2 id="a-vos-claviers---">A vos claviers ! 👩‍💻 👨‍💻</h2>
+
+<p><a href="[Tryit Editor v3.7](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements)">Cliquez ici pour démarrer</a> &lt; — Clique ici 🤗</p>
+
+<p>Je vous présente</p>
+
+<blockquote>
+  <p>Rrrrroulement de tambours</p>
+</blockquote>
+
+<h5 id="notre-éditeur-de-code-pour-ce-tp">Notre éditeur de code pour ce TP</h5>
+
+<p><img src="/assets/img/2022-01-26-14-44-15-image.png" alt="" /></p>
+
+<p>Bon pour la plupart du code écrit dans cette page vous devriez reconnaître une grande partie des balises.</p>
+
+<p>Le bouton vert <em>run</em> sert à actualiser la page sur la droite avec le code de gauche.</p>
+
+<p>Je vais vous donner trois petites tâches histoire de vérifier que vous avez-bien tout compris jusqu’à maintenant:</p>
+
+<ol>
+  <li>
+    <p>Changer le titre <em>Hello world</em> avec votre nom et prénom</p>
+  </li>
+  <li>
+    <p>Ajouter un titre de petite taille en dessous du titre avec votre nom et prénom (anciennement <em>Hello world</em>) indiquant le nom de votre établissement et votre classe</p>
+  </li>
+  <li>
+    <p>Enlever le paragraphe</p>
+  </li>
+</ol>
+
+<p>Fini ? 🥳</p>
+
+<p>Voici ma solution:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+
+<span class="nt">&lt;h1&gt;</span>Alexandros SIDIRAS<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;h3&gt;</span> INSA Lyon 6ème année <span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+
+</code></pre></div></div>
+
+<p><img src="/assets/img/2022-01-26-14-40-36-image.png" alt="" /></p>
+
+<h4 id="les-listes">Les listes</h4>
+
+<p>Bon j’imagine que vous ne pouvez être résumé à juste votre nom prénom et année scolaire…</p>
+
+<p>Ajoutons vos activités favorites sur votre site web ! Dans un <u>paragraphe</u>, écrivez en dessous de votre année scolaire ce que vous aimez faire.</p>
+
+<p>Moi c’était facile:</p>
+
+<p><img src="/assets/img/2022-01-26-14-41-52-image.png" alt="" /></p>
+
+<p>Le rendu n’est pas terrible non ? J’aimerais plutôt faire une … LISTE !</p>
+
+<p>Pour faire une liste il faut deux balises: Les balises <code class="language-plaintext highlighter-rouge">&lt;ul&gt;</code> signifiant “unordered list” (en français: <em>liste désordonnée</em>). Cette balise marque le début et la fin de la liste. Ensuite nous avons les balises <code class="language-plaintext highlighter-rouge">&lt;li&gt;</code> qui sont les acronymes de “list item” (en français: <em>élément de liste</em>) pour chaque élément que l’on veut mettre dans notre liste.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ul&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Manger de la salade<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Dormir<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Jouer<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span> 
+</code></pre></div></div>
+
+<p><img src="/assets/img/2022-01-26-14-42-23-image.png" alt="" /></p>
+
+<p>Beaucoup mieux pas vrai ?</p>
+
+<p>On peut même rajouter un titre avant la liste:</p>
+
+<p><img src="/assets/img/2022-01-26-14-43-07-image.png" alt="" /></p>
+
+<p>Pour vérifier que vous avez bien compris, <u>ajouter</u> une dernière chose que vous aimez faire.</p>
+
+<h4 id="les-liens">Les liens</h4>
+
+<p>Et si on rajoutait un lien vers votre site favori ?</p>
+
+<p>Pour cela il faut s’armer de la balise <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> . Voici un petit exemple:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://www.pictalk.xyz"</span><span class="nt">&gt;</span>Cliquez ici pour accéder à Pictalk<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<p>A l’intérieur de la première balise <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> on place l’argument <em>href</em> qui définit l’url de notre site. Entre nos deux balises <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> et <code class="language-plaintext highlighter-rouge">&lt;/a&gt;</code> on place le texte qui apparaîtra <a href="">comme ça</a> .</p>
+
+<h4 id="les-images">Les images</h4>
+
+<p>Le site est un peu triste sans images… Vous avez envie d’en mettre une d’image aussi ?</p>
+
+<p>Voici la balise qu’il nous faut:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"photo_de_chats.png"</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<p>Ici la balise image a besoin d’un argument <em>src</em> , acronyme de <u>source</u> . Nous allons y mettre le lien vers notre image.</p>
+
+<p>L’image de chats dans l’exemple ne va pas marcher car elle n’est pas accessible sur nos ordinateurs mais nous pouvons choisir une image disponible sur internet.</p>
+
+<p>Une image de manchot vous va ? On va aller la chercher sur wikipedia a cette adresse: <a href="https://fr.wikipedia.org/wiki/Manchot_empereur">Manchot empereur — Wikipédia</a></p>
+
+<h4><img src="/Users/alex/Library/Application%20Support/marktext/images/2022-01-26-14-23-31-image.png" alt="" /></h4>
+
+<p>Copiez le lien à la place de <em>photo_de_chats.png</em> et le tour est joué :</p>
+
+<p><img src="/assets/img/2022-01-26-14-43-47-image.png" alt="" /></p>
+
+<h4 id="défis">Défis</h4>
+
+<p>On commence a être bons en HTML n’est-ce pas ? Voici une petite liste de défis que vous êtes libres de faire si l’envie vous en prend 😎</p>
+
+<ul>
+  <li>
+    <p>Mettre un smiley sur votre page</p>
+  </li>
+  <li>
+    <p>Sachant que la balise pour mettre en gras un texte est: <code class="language-plaintext highlighter-rouge">&lt;b&gt;</code> Mettre en gras votre prénom</p>
+  </li>
+  <li>
+    <p>L’attribut style permet de colorer (et plus) votre texte: <code class="language-plaintext highlighter-rouge">&lt;h1 style="color: blue;"&gt;</code> va rendre le texte du titre de couleur bleue. Mettez un peu de couleur dans votre site !</p>
+  </li>
+</ul>
+
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

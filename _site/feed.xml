@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator>
+  <generator uri="http://jekyllrb.com" version="3.9.0">Jekyll</generator>
   
   
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-05-02T12:40:00+02:00</updated>
+  <updated>2022-01-26T15:38:46+01:00</updated>
   <id>http://localhost:4000//</id>
 
   
@@ -13,11 +13,227 @@
   
 
   
-    <subtitle>Hello, I'm Alex. I'm a Telecomunications student at the INSA de Lyon (France) and I love computer science too ! You will find articles about CS, Linux+GNU and other things I'm intrested into. I'll maybe write some daily life tips or things I use a lot etc.</subtitle>
+    <subtitle>Hello, I&apos;m Alex. I&apos;m a Telecomunications student at the INSA de Lyon (France) and I love computer science too ! You will find articles about CS, Linux+GNU and other things I&apos;m intrested into. I&apos;ll maybe write some daily life tips or things I use a lot etc.</subtitle>
   
 
   
 
+  
+  
+    <entry>
+      
+      <title type="html">Pop Sciences Introduction Au Html</title>
+      
+      
+      <link href="http://localhost:4000/2022/01/26/pop-sciences-introduction-au-HTML/" rel="alternate" type="text/html" title="Pop Sciences Introduction Au Html" />
+      
+      <published>2022-01-26T00:00:00+01:00</published>
+      <updated>2022-01-26T00:00:00+01:00</updated>
+      <id>http://localhost:4000/2022/01/26/pop-sciences-introduction-au-HTML</id>
+      <content type="html" xml:base="http://localhost:4000/2022/01/26/pop-sciences-introduction-au-HTML/">&lt;p&gt;L’application web que j’ai développée Pictalk, comme tout ce qui est sur le web, utilise HTML.&lt;/p&gt;
+
+&lt;p&gt;HTML &lt;a href=&quot;https://www.linternaute.fr/dictionnaire/fr/definition/quesaco/&quot;&gt;kézako&lt;/a&gt;  ?&lt;/p&gt;
+
+&lt;p&gt;HTML en langue anglaise signifie “HyperText Markup Language”.  Je sais… ça ne nous aide pas bien plus… L’HTML est le language qui est utilisé pour structurer une page web et son contenu. Les premières pages HTML ressemblent pas mal à un document Word:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.pierre-giraud.com/wp-content/uploads/2019/05/affichage-titres-h-html.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On dispose de titres, sous-titres, paragraphes et même d’images 🤩 ça ressemblait un peu à ça le web au début.&lt;/p&gt;
+
+&lt;p&gt;Dans ce court TP nous allons comprendre la syntaxe de ce language et l’utiliser pour faire un site web personnalisé qui nous présente 😎&lt;/p&gt;
+
+&lt;h2 id=&quot;les-bases&quot;&gt;Les bases&lt;/h2&gt;
+
+&lt;p&gt;Ne prenez pas peur !!! Tous ces caractères farfelus ne sont enfaite pas si difficiles à comprendre.&lt;/p&gt;
+
+&lt;p&gt;On va commencer par la base de la base:&lt;/p&gt;
+
+&lt;p&gt;HTML fonctionne avec des balises (ces &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt; &amp;gt; &amp;lt; /&amp;gt;&lt;/code&gt; trucs). La balise &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;exemple&amp;gt;&lt;/code&gt; indique le début d’un élément de type exemple  et &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;/exemple&amp;gt;&lt;/code&gt; indique au contraire sa fin. Tout ce qui va se trouver entre ces balises est donc un élément de type &lt;em&gt;exemple&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;exemple&amp;gt; Je suis un texte de type exemple &amp;lt;/exemple&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt; Je suis un texte de type paragraphe &amp;lt;/p&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;titre&amp;gt;&lt;/span&gt;
+Je suis un texte de type titre
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;italique&amp;gt;&lt;/span&gt; Je suis un texte de type titre ET italique &lt;span class=&quot;nt&quot;&gt;&amp;lt;/italique&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/titre&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt; Je suis un texte de type paragraphe et je ne suis pas un titre &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cet exemple bien qu’il soit faux a du vous permettre de bien comprendre ce fonctionnement en balises.&lt;/p&gt;
+
+&lt;p&gt;Passons maintenant à quelque chose de plus concret:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Coucou Pop&apos;sciences&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;La balise &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;html&amp;gt;&lt;/code&gt; dit tout simplement qu’il s’agit d’un code écrit en HTML. Il y a bien d’autres langages de programmation et il faut donc bien préciser dans quelle langage ont écrit à chaque fois !&lt;/p&gt;
+
+&lt;p&gt;La balise &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; (en français: &lt;em&gt;corps&lt;/em&gt;)  est utilisée pour signaler le &lt;strong&gt;corps&lt;/strong&gt; de la page web. C’est ici que l’on va placer le titre, les paragraphes, les images etc.&lt;/p&gt;
+
+&lt;p&gt;La balise &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;  qui est l’abréviation de &lt;strong&gt;heading&lt;/strong&gt; (en français: &lt;em&gt;titre&lt;/em&gt;) nous permet d’écrire un titre. Pour écrire un titre plus petit il suffit d’incrémenter (faire monter) le chiffre à côté du &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h&lt;/code&gt; . Par exemple &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; va être un titre très petit et &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h3&lt;/code&gt; sera un titre de taille moyenne.&lt;/p&gt;
+
+&lt;p&gt;La brique de code d’au dessus va donner cela:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2022-01-26-11-52-40-image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cooooool pas vrai ? Vous devriez être chauds bouillants pour la suite dans ce cas.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-vos-claviers---&quot;&gt;A vos claviers ! 👩‍💻 👨‍💻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;[Tryit Editor v3.7](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements)&quot;&gt;Cliquez ici pour démarrer&lt;/a&gt; &amp;lt; — Clique ici 🤗&lt;/p&gt;
+
+&lt;p&gt;Je vous présente&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Rrrrroulement de tambours&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;notre-éditeur-de-code-pour-ce-tp&quot;&gt;Notre éditeur de code pour ce TP&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2022-01-26-14-44-15-image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bon pour la plupart du code écrit dans cette page vous devriez reconnaître une grande partie des balises.&lt;/p&gt;
+
+&lt;p&gt;Le bouton vert &lt;em&gt;run&lt;/em&gt; sert à actualiser la page sur la droite avec le code de gauche.&lt;/p&gt;
+
+&lt;p&gt;Je vais vous donner trois petites tâches histoire de vérifier que vous avez-bien tout compris jusqu’à maintenant:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Changer le titre &lt;em&gt;Hello world&lt;/em&gt; avec votre nom et prénom&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ajouter un titre de petite taille en dessous du titre avec votre nom et prénom (anciennement &lt;em&gt;Hello world&lt;/em&gt;) indiquant le nom de votre établissement et votre classe&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enlever le paragraphe&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Fini ? 🥳&lt;/p&gt;
+
+&lt;p&gt;Voici ma solution:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Alexandros SIDIRAS&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt; INSA Lyon 6ème année &lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2022-01-26-14-40-36-image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;les-listes&quot;&gt;Les listes&lt;/h4&gt;
+
+&lt;p&gt;Bon j’imagine que vous ne pouvez être résumé à juste votre nom prénom et année scolaire…&lt;/p&gt;
+
+&lt;p&gt;Ajoutons vos activités favorites sur votre site web ! Dans un &lt;u&gt;paragraphe&lt;/u&gt;, écrivez en dessous de votre année scolaire ce que vous aimez faire.&lt;/p&gt;
+
+&lt;p&gt;Moi c’était facile:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2022-01-26-14-41-52-image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Le rendu n’est pas terrible non ? J’aimerais plutôt faire une … LISTE !&lt;/p&gt;
+
+&lt;p&gt;Pour faire une liste il faut deux balises: Les balises &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;ul&amp;gt;&lt;/code&gt; signifiant “unordered list” (en français: &lt;em&gt;liste désordonnée&lt;/em&gt;). Cette balise marque le début et la fin de la liste. Ensuite nous avons les balises &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;li&amp;gt;&lt;/code&gt; qui sont les acronymes de “list item” (en français: &lt;em&gt;élément de liste&lt;/em&gt;) pour chaque élément que l’on veut mettre dans notre liste.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Manger de la salade&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Dormir&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Jouer&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2022-01-26-14-42-23-image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Beaucoup mieux pas vrai ?&lt;/p&gt;
+
+&lt;p&gt;On peut même rajouter un titre avant la liste:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2022-01-26-14-43-07-image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour vérifier que vous avez bien compris, &lt;u&gt;ajouter&lt;/u&gt; une dernière chose que vous aimez faire.&lt;/p&gt;
+
+&lt;h4 id=&quot;les-liens&quot;&gt;Les liens&lt;/h4&gt;
+
+&lt;p&gt;Et si on rajoutait un lien vers votre site favori ?&lt;/p&gt;
+
+&lt;p&gt;Pour cela il faut s’armer de la balise &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; . Voici un petit exemple:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://www.pictalk.xyz&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Cliquez ici pour accéder à Pictalk&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;A l’intérieur de la première balise &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; on place l’argument &lt;em&gt;href&lt;/em&gt; qui définit l’url de notre site. Entre nos deux balises &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; et &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;/a&amp;gt;&lt;/code&gt; on place le texte qui apparaîtra &lt;a href=&quot;&quot;&gt;comme ça&lt;/a&gt; .&lt;/p&gt;
+
+&lt;h4 id=&quot;les-images&quot;&gt;Les images&lt;/h4&gt;
+
+&lt;p&gt;Le site est un peu triste sans images… Vous avez envie d’en mettre une d’image aussi ?&lt;/p&gt;
+
+&lt;p&gt;Voici la balise qu’il nous faut:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;photo_de_chats.png&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ici la balise image a besoin d’un argument &lt;em&gt;src&lt;/em&gt; , acronyme de &lt;u&gt;source&lt;/u&gt; . Nous allons y mettre le lien vers notre image.&lt;/p&gt;
+
+&lt;p&gt;L’image de chats dans l’exemple ne va pas marcher car elle n’est pas accessible sur nos ordinateurs mais nous pouvons choisir une image disponible sur internet.&lt;/p&gt;
+
+&lt;p&gt;Une image de manchot vous va ? On va aller la chercher sur wikipedia a cette adresse: &lt;a href=&quot;https://fr.wikipedia.org/wiki/Manchot_empereur&quot;&gt;Manchot empereur — Wikipédia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;&lt;img src=&quot;/Users/alex/Library/Application%20Support/marktext/images/2022-01-26-14-23-31-image.png&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+
+&lt;p&gt;Copiez le lien à la place de &lt;em&gt;photo_de_chats.png&lt;/em&gt; et le tour est joué :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2022-01-26-14-43-47-image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;défis&quot;&gt;Défis&lt;/h4&gt;
+
+&lt;p&gt;On commence a être bons en HTML n’est-ce pas ? Voici une petite liste de défis que vous êtes libres de faire si l’envie vous en prend 😎&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mettre un smiley sur votre page&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sachant que la balise pour mettre en gras un texte est: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;b&amp;gt;&lt;/code&gt; Mettre en gras votre prénom&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;L’attribut style permet de colorer (et plus) votre texte: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h1 style=&quot;color: blue;&quot;&amp;gt;&lt;/code&gt; va rendre le texte du titre de couleur bleue. Mettez un peu de couleur dans votre site !&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+        <summary type="html">L’application web que j’ai développée Pictalk, comme tout ce qui est sur le web, utilise HTML.</summary>
+      
+
+      
+      
+    </entry>
+  
   
   
     <entry>
@@ -30,45 +246,45 @@
       <published>2020-05-01T19:41:35+02:00</published>
       <updated>2020-05-01T19:41:35+02:00</updated>
       <id>http://localhost:4000/2020/05/01/python-dev-environment</id>
-      <content type="html" xml:base="http://localhost:4000/2020/05/01/python-dev-environment/">&lt;p&gt;I started coding with python, at the time I was 17 and barely knew about how much is the development environment important. Not just the computer itself is important but furthermore the Software. I was using windows and the  basic Python IDE for an approx. 1000 lines project.&lt;/p&gt;
+      <content type="html" xml:base="http://localhost:4000/2020/05/01/python-dev-environment/">&lt;p&gt;I started coding with python, at the time I was 17 and barely knew about how much is the development environment important. Not just the computer itself is important but furthermore the Software. I was using windows and the basic Python IDE for an approx. 1000 lines project.&lt;/p&gt;
 
 &lt;p&gt;Module import was a nightmare for me as much as learning the language.&lt;/p&gt;
 
-&lt;p&gt;I recently faced a problem related to modules. My system’s Python version was &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.8&lt;/code&gt; and I needed the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.6&lt;/code&gt; version for the script to run. Furthermore I needed &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.6&lt;/code&gt; version &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cryptodome&lt;/code&gt; module.&lt;/p&gt;
+&lt;p&gt;I recently faced a problem related to modules. My system’s Python version was 3.8 and I needed the 3.6 version for the script to run. Furthermore, I needed 3.6 version cryptodome module.&lt;/p&gt;
 
-&lt;p&gt;Some Qwant searchs later on I found about Pipenv and Pyenv.&lt;/p&gt;
+&lt;p&gt;Some Qwant searches, later on, I found about Pipenv and Pyenv.&lt;/p&gt;
 
 &lt;h2 id=&quot;pyenv&quot;&gt;Pyenv&lt;/h2&gt;
 
-&lt;p&gt;Pyenv allows us to have multiple python versions in one OS. By changing the  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;symlinks&lt;/code&gt; and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Path&lt;/code&gt; variable it manages to change the direction of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Python&lt;/code&gt; commands and redirect to the other python versions.&lt;/p&gt;
+&lt;p&gt;Pyenv allows us to have multiple python versions in one OS. By changing the symlinks and the Path variable it manages to change the direction of the Python commands and redirect to the other python versions.&lt;/p&gt;
 
 &lt;p&gt;Here is a link to the &lt;a href=&quot;https://github.com/pyenv/pyenv&quot;&gt;documentation&lt;/a&gt;, I may have done mistakes while explaining the process. Here are the &lt;a href=&quot;https://github.com/pyenv/pyenv/blob/master/COMMANDS.md&quot;&gt;main commands&lt;/a&gt; of Pyenv.&lt;/p&gt;
 
-&lt;p&gt;But What if we want to install modules alongside our newly created Python version ?&lt;/p&gt;
+&lt;p&gt;But What if we want to install modules alongside our newly created Python version?&lt;/p&gt;
 
 &lt;p&gt;Well it’s “complicated”&lt;/p&gt;
 
-&lt;p&gt;I had many problems and issues and that’s why I recommend you the following tool :&lt;/p&gt;
+&lt;p&gt;I had many problems and issues and that’s why I recommend the following tool :&lt;/p&gt;
 
 &lt;h2 id=&quot;pipenv&quot;&gt;Pipenv&lt;/h2&gt;
 
-&lt;p&gt;Pipenv eases the problem of Python and Pip version Pyenv had. It creates a Pyenv environement with a Pip too.&lt;/p&gt;
+&lt;p&gt;Pipenv eases the problem of Python and Pip version Pyenv had. It creates a Pyenv environment with a Pip too.&lt;/p&gt;
 
 &lt;p&gt;Said like this, Pipenv is the dream come true of Python developers.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;It isn’t.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Pipenv has sometimes problems with it’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pipenv.lock&lt;/code&gt;. I had a problem when managing the modules for my Deep Reinforcement Learning you can look at &lt;a href=&quot;https://github.com/Ratatinator97/LunarLander-DQN&quot;&gt;there&lt;/a&gt;. The Pipenv &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;install &quot;module&quot;&lt;/code&gt; command was taking an eternity and I seemed broken.&lt;/p&gt;
+&lt;p&gt;Pipenv has sometimes problems with its pipenv.lock. I had a problem when managing the modules for my Deep Reinforcement Learning you can look at &lt;a href=&quot;https://github.com/Ratatinator97/LunarLander-DQN&quot;&gt;there&lt;/a&gt;. The Pipenv install &quot;module&quot; command was taking an eternity and I seemed broken.&lt;/p&gt;
 
-&lt;p&gt;And there’s how I found &lt;a href=&quot;https://python-poetry.org/&quot;&gt;Poetry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And here’s how I found &lt;a href=&quot;https://python-poetry.org/&quot;&gt;Poetry&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;poetry&quot;&gt;Poetry&lt;/h1&gt;
 
-&lt;p&gt;From Poetry’s website : &lt;em&gt;Python packaging and dependency management made easy&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;From Poetry’s website: &lt;em&gt;Python packaging and dependency management made easy&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;And trust me it is easy !&lt;/p&gt;
+&lt;p&gt;And trust me it is easy!&lt;/p&gt;
 
-&lt;p&gt;I didn’t experience bugs about &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*.lock&lt;/code&gt; or colossal wait during a command. It is simple and effective.&lt;/p&gt;
+&lt;p&gt;I didn’t experience bugs about *.lock or colossal wait during a command. It is simple and effective.&lt;/p&gt;
 
 &lt;p&gt;But Poetry doesn’t change the Python version by itself, you have to create a Pyenv environment with the chosen version and then in the environment init a Poetry project. Look at their amazing documentation if you need some help.&lt;/p&gt;</content>
 
