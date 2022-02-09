@@ -16,12 +16,13 @@ Ne prenez pas peur !!! Tous ces caractères farfelus ne sont enfaite pas si diff
 
 On va commencer par la base de la base: 
 
-HTML fonctionne avec des balises (ces `< > < />` trucs). La balise `<exemple>` indique le début d'un élément de type exemple  et `</exemple>` indique au contraire sa fin. Tout ce qui va se trouver entre ces balises est donc un élément de type *exemple*. 
+HTML fonctionne avec des balises (ces `< > < />` trucs). La balise `<exemple>` indique le début d'un élément de type exemple  et `</exemple>` indique au contraire sa fin. Tout ce qui va se trouver entre ces balises est donc un élément de type *exemple*.
 
-`<exemple> Je suis un texte de type exemple </exemple>`
-
-`<p> Je suis un texte de type paragraphe </p>`
-
+---
+```html
+<exemple> Je suis un texte de type exemple </exemple>
+<p> Je suis un texte de type paragraphe </p>
+```
 ```html
 <titre>
 Je suis un texte de type titre
@@ -29,11 +30,12 @@ Je suis un texte de type titre
 </titre>
 <p> Je suis un texte de type paragraphe et je ne suis pas un titre </p>
 ```
-
+---
 Cet exemple bien qu'il soit faux a du vous permettre de bien comprendre ce fonctionnement en balises.
 
 Passons maintenant à quelque chose de plus concret: 
 
+---
 ```html
 <html>
 <body>
@@ -43,7 +45,7 @@ Passons maintenant à quelque chose de plus concret:
 </body>
 </html>
 ```
-
+---
 La balise `<html>` dit tout simplement qu'il s'agit d'un code écrit en HTML. Il y a bien d'autres langages de programmation et il faut donc bien préciser dans quelle langage ont écrit à chaque fois !
 
 La balise `<body>` (en français: *corps*)  est utilisée pour signaler le **corps** de la page web. C'est ici que l'on va placer le titre, les paragraphes, les images etc.
@@ -60,7 +62,7 @@ La brique de code d'au dessus va donner cela:
 
 ## A vos claviers ! 👩‍💻 👨‍💻
 
-[Cliquez ici pour démarrer]([Tryit Editor v3.7](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements)) < --- Clique ici 🤗
+[Cliquez ici pour démarrer](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements) < --- Clique ici 🤗
 
 Je vous présente
 
@@ -88,6 +90,7 @@ Fini ? 🥳
 
 Voici ma solution: 
 
+---
 ```html
 <!DOCTYPE html>
 <html>
@@ -99,7 +102,7 @@ Voici ma solution:
 </html>
 
 ```
-
+---
 ![](/assets/img/2022-01-26-14-40-36-image.png)
 
 #### Les listes
@@ -116,6 +119,7 @@ Le rendu n'est pas terrible non ? J'aimerais plutôt faire une ... LISTE !
 
 Pour faire une liste il faut deux balises: Les balises `<ul>` signifiant "unordered list" (en français: *liste désordonnée*). Cette balise marque le début et la fin de la liste. Ensuite nous avons les balises `<li>` qui sont les acronymes de "list item" (en français: *élément de liste*) pour chaque élément que l'on veut mettre dans notre liste.
 
+---
 ```html
 <ul>
   <li>Manger de la salade</li>
@@ -123,7 +127,7 @@ Pour faire une liste il faut deux balises: Les balises `<ul>` signifiant "unorde
   <li>Jouer</li>
 </ul> 
 ```
-
+---
 ![](/assets/img/2022-01-26-14-42-23-image.png)
 
 Beaucoup mieux pas vrai ?
@@ -140,10 +144,11 @@ Et si on rajoutait un lien vers votre site favori ?
 
 Pour cela il faut s'armer de la balise `<a>` . Voici un petit exemple:
 
+---
 ```html
 <a href="https://www.pictalk.xyz">Cliquez ici pour accéder à Pictalk</a>
 ```
-
+---
 A l'intérieur de la première balise `<a>` on place l'argument *href* qui définit l'url de notre site. Entre nos deux balises `<a>` et `</a>` on place le texte qui apparaîtra [comme ça]() .
 
 #### Les images
@@ -152,10 +157,11 @@ Le site est un peu triste sans images... Vous avez envie d'en mettre une d'image
 
 Voici la balise qu'il nous faut:
 
+---
 ```html
 <img src="photo_de_chats.png" />
 ```
-
+---
 Ici la balise image a besoin d'un argument *src* , acronyme de <u>source</u> . Nous allons y mettre le lien vers notre image.
 
 L'image de chats dans l'exemple ne va pas marcher car elle n'est pas accessible sur nos ordinateurs mais nous pouvons choisir une image disponible sur internet.
